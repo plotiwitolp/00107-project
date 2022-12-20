@@ -1,0 +1,49 @@
+/* reset */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+}
+
+html,
+body {
+  line-height: 1;
+}
+
+/*----------------*/
+.icon {
+  width: 70px;
+  height: 70px;
+  fill: #000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.icon:hover {
+  fill: rgb(87, 87, 87);
+}
